@@ -23,9 +23,20 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                    // Greeting("Android")
+
                 }
             }
         }
     }
 }
 
+@Preview
+@Composable
+fun DiceRollerApp() {
+
+}
+
+@Composable
+fun DiceWithButtonAndImage() {
+
+}
