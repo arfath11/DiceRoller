@@ -54,7 +54,7 @@ class MainActivity : ComponentActivity() {
 fun DiceWithButtonAndImage(modifier: Modifier = Modifier) {
     var result by remember { mutableStateOf(1) }
     var myima = "dice_"+1
-
+//
 
     val imageResource = when (result) {
         1 -> R.drawable.dice_1
